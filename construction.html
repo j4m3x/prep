@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <!-- Google Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Poppins', sans-serif; /* Using Poppins font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff; /* White background */
+        }
+        .container {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 400px; /* Fixed image width for mobile */
+        }
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            margin-top: 0px;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .btn-home {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .btn-home:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            img {
+                width: 80%; /* Make the image responsive for smaller screens */
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://res.cloudinary.com/ddpbxiklm/image/upload/v1743228757/Under_construction-pana_cxfn6a.png" alt="Page under construction">
+        <h1>Under Construction</h1>
+        <p>Oops! It seems like this page is under construction or no longer available.</p>
+        <a href="index.html" class="btn-home">Go to Home Page</a>
+    </div>
+</body>
+</html>
